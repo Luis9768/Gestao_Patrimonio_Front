@@ -1,10 +1,14 @@
 import React from 'react';
-import styles from './modalJustificativa.module.css';
+import styles from "@/components/modal-justificativa/modal-justificativa.module.css";
 
 interface ModalJustificativaProps {
     isOpen?: boolean;
     onClose?: () => void;
     textoJustificativa?: string;
+}
+
+interface Patrimonio{
+    
 }
 
 const ModalJustificativa: React.FC<ModalJustificativaProps> = ({ 
